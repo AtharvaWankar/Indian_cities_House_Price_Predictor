@@ -18,3 +18,19 @@ Follow these steps to run the program
 
 
 you can you all the features thereby..........
+
+
+
+# IF YOU GET SUCH ERROR WHILE NAVIGATING
+
+File not found
+
+Firefox can’t find the file at /D:/Indian_Cities_House_Price/Indian_Cities_House_Price/client_comb/client_map/client_delhi/home.html.
+
+    Check the file name for capitalization or other typing errors.
+    Check to see if the file was moved, renamed or deleted.
+
+
+
+Solution - Update the location of pages in HTML files (The one in which you got error) according to your format of saved files.
+
