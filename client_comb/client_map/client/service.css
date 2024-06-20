@@ -1,0 +1,60 @@
+body{
+    background-image: url("content/white_bg.jpg");
+    background-size: cover;
+}
+.service{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#head{
+    margin-top: 150px;
+    padding-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#s1{
+    margin-top: 220px;
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+#s2{
+    margin-top: 290px;
+    margin-left: 200px;
+    
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgba(125, 31, 134, 0.17);
+}
+
+#s3{
+    margin-top: 370px;
+    margin-left: 200px;
+    
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgba(157, 121, 188, 0.181);
+}
+
+#s4{
+    margin-top: 485px;
+    margin-left: 200px;
+    
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgba(140, 160, 215, 0.201);
+}
+
+#s5{
+    margin-top: 600px;
+    margin-left: 200px;
+    
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgba(145, 197, 242, 0.171);
+}

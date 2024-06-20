@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("content/white_bg.jpg");
+    background-size: cover;
+    
+}
+
+
+
+.index{
+    position: absolute;
+}
+
+
+#mainmsg{   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -210px;;
+    background-color: rgba(0, 38, 255, 0.167);
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+#mapbtn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black ;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left:50px;
+    padding-right:50px;
+    font-size: 20px;
+    margin-bottom: -550px;
+    text-decoration: none;
+}
+
+#mapbtn:hover{
+    font-size: 25px;
+    padding: 25px;
+    padding-left:60px;
+    padding-right:60px;
+    transition-duration: 400ms;
+}
+
+#begin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 320px;
+}
