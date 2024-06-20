@@ -1,0 +1,181 @@
+
+* {
+  margin: 0;
+  padding: 100;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/white_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px); 
+  z-index: -1;
+}
+
+.container {
+  max-width: 800px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(248, 247, 247, 0.932);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.header {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.header h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.area{
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+.img {
+  width: 500px;
+  height: 400px;
+  
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  flex-shrink: 0;
+  margin-right: 20px;
+
+  
+  
+}
+
+.form {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #00000000;
+}
+
+.form h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.form .switch-field {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.form .switch-field input[type="radio"] {
+  display: none;
+}
+
+.form .switch-field label {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.form .switch-field label:hover {
+  background-color: #f0f0f0;
+}
+
+.form .switch-field input[type="radio"]:checked + label {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.form .location {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  font-size: 18px;
+  color: #000000;
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgb(232, 255, 127);
+}
+
+
+#city_name{
+  padding: 20px;
+  margin-bottom: 70px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(0, 116, 249, 0.222);
+  border-radius: 20px;
+  box-shadow: 2px 10px 34px;
+}
+
+
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+
